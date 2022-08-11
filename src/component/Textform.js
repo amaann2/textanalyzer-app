@@ -115,7 +115,7 @@ export default function Textform(props) {
           className="btn-success btn my-3 mx-2"
           onClick={clearClick}
         >
-          Clear
+          Clear and clear
         </button>
       </div>
       <div

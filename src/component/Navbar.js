@@ -40,6 +40,11 @@ export default function Navbar(props) {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/getTime">
+                  Get Time
+                </Link>
+              </li>
             </ul>
           </div>
         

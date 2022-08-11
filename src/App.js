@@ -4,6 +4,7 @@ import Textform from "./component/Textform";
 import Counter from "./component/Counter";
 import Alert from "./component/Alert";
 import About from "./component/About";
+import Time from "./component/Time";
 import React, { useState } from "react";
 // import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -65,6 +66,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About mode={mode} />
+            </Route>
+            <Route path="/getTime">
+              <Time />
             </Route>
             <Route path="/">
             <Textform
